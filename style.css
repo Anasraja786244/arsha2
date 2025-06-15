@@ -1,0 +1,96 @@
+.hero-section{
+    background-color: #37517E !important;
+    color: white !important;
+}
+.hero-section a{
+    color: white !important;
+}
+.dropdown-menu a{
+    color: black !important;
+}
+.anim-img{
+    animation: move 1s linear alternate infinite !important;
+}
+.brand-iamges img{
+    filter: grayscale(100%) !important;
+}
+.text-blue{
+    color: #37517E;
+}
+.gray{
+    width: 20%;
+    height: 2px;
+    background: lightgray;
+    margin: auto;
+    position: relative;
+}
+.blue{
+    width: 30%;
+    height: 5px;
+    background: #47B2E4;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.progress1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    font-size: 0.8rem;
+}
+.bg-blue{
+    background-color: #37517E;
+}
+.my-service-card{
+    transition: all 1.3s;
+    cursor: pointer;
+}
+.my-service-card:hover{
+    transform: translateY(-15px);
+}
+.my-service-card:hover h4{
+    color: #47B2E4;
+}
+.my-work-card img{
+    transition: all 0.5s;
+}
+.number{
+    position: relative;
+    z-index: 9999;
+}
+.my-work-card:hover img{
+    scale:1.1;
+}
+.card-contact{
+    transition: 0.5s;
+}
+
+.my-work-card:hover .card-contact{
+    transform: translateY(-20px);
+}
+.building{
+    background-image: url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp");
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call{
+    background: none;
+    border: 1px solid white;
+}
+.padding{
+    padding: 3rem;
+    background-color: #37517E;
+   backdrop-filter: blur(10px);
+}
+@keyframes move{
+    from{
+ transform: translateY(0);
+    }to{
+transform: translateY(-20px);
+    }
+}

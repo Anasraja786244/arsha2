@@ -2,8 +2,11 @@
     background-color: #37517E !important;
     color: white !important;
 }
+
+
 .hero-section a{
     color: white !important;
+    background-color: #37517E !important;
 }
 .dropdown-menu a{
     color: black !important;
@@ -72,8 +75,7 @@
     transform: translateY(-20px);
 }
 .building{
-    background-image: url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp");
-    height: 500px;
+    background: linear-gradient(to right,rgba(36, 62, 98,0.5),rgba(36, 62, 98,0.8)),url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp")fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,9 +86,35 @@
 }
 .padding{
     padding: 3rem;
-    background-color: #37517E;
-   backdrop-filter: blur(10px);
 }
+.click-btn button{
+    transition: all 0.3s;
+}
+.click-btn button:hover{
+background: #47B2E4;
+}
+.img-overlay{
+    position: relative;
+    overflow: hidden;
+    
+}
+.underlay{
+position: absolute;
+width: 100%;
+bottom: 0;
+z-index: 9999;
+background: rgb(255, 255, 255);
+transform: translateY(99px);
+transition: all 0.3s;
+padding: 15px;
+}
+.img-overlay:hover .underlay{
+    transform: translateY(0);
+
+}
+
+
+
 @keyframes move{
     from{
  transform: translateY(0);

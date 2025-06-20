@@ -10,10 +10,9 @@
 }
 .dropdown-menu a{
     color: black !important;
+    background-color: white !important;
 }
-.anim-img{
-    animation: move 1s linear alternate infinite !important;
-}
+
 .brand-iamges img{
     filter: grayscale(100%) !important;
 }
@@ -112,13 +111,58 @@ padding: 15px;
     transform: translateY(0);
 
 }
-
-
-
-@keyframes move{
-    from{
- transform: translateY(0);
-    }to{
-transform: translateY(-20px);
-    }
+.accordion-header button:hover{
+    color: #47B2E4 !important;
 }
+.email{
+    border: 1px solid #47B2E4;
+    width: 100%;
+    border-radius: 40px 0 0 40px;
+    font-size: 1.2rem;
+}
+.email-adress{
+    display: flex;
+    align-items: center;
+}
+.subcribe{
+    padding: 5rem;
+}
+.newsletter{
+border-radius: 10px;
+}
+.she{
+    margin-bottom: -3rem;
+    padding-left: 6rem;
+}
+.july{
+    transition: all 1s;
+}
+.july:hover{
+    scale: 1.1;
+}
+
+.blogs:hover .aunt{
+color: #47B2E4;
+}
+.aunt{
+    transition: all 0.4s;
+}
+.useful:hover a{
+color: #47B2E4 !important;
+}
+.anim-img{
+    animation: move 1s linear alternate infinite !important;
+
+}
+
+
+ @keyframes move {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(-20px);
+      }
+    }
+
+
